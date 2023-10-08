@@ -6,9 +6,9 @@ This project focuses on building a predictive model for classifying tumors into 
 
 ## Functions and Features
 
-### Tumor_Classification_Predictor
+### tumor_classifier
 
-The "Tumor_Classification_Predictor" function is a comprehensive utility for performing tumor classification. It takes multiple input parameters representing tumor characteristics and provides two key outputs: model accuracy and predicted tumor type.
+The "tumor_classifier" function is a comprehensive utility for performing tumor classification. It takes multiple input parameters representing tumor characteristics and provides two key outputs: model accuracy and predicted tumor type.
 
 ### Function Workflow
 
@@ -39,13 +39,32 @@ The function performs the following steps in its workflow:
 
 To see a demonstration of our Tumor Classification Predictor project in action, please watch the following video:
 
-[Demo Video](https://example.com/demo_video)
+[Demo Video](https://youtu.be/DRGinTnXzN4)
 
 In this video, we provide a step-by-step walkthrough of how to use our project's features, objectives, and results. Feel free to watch the video to get a better understanding of our project.
 
 ## Dataset
 
-The dataset used for this project is the Tumor Classification Dataset, which contains data on various tumor characteristics and their corresponding diagnoses (e.g., "Malignant" or "Benign").
+### Dataset Overview
+
+This project utilizes a dataset containing information about tumor characteristics. The dataset includes the following features:
+
+- **radius_mean:** Mean of the radius of the tumor.
+- **perimeter_mean:** Mean of the perimeter of the tumor.
+- **area_mean:** Mean of the area of the tumor.
+- **smoothness_mean:** Mean of the smoothness of the tumor.
+- **compactness_mean:** Mean of the compactness of the tumor.
+- **concavity_mean:** Mean of the concavity of the tumor.
+- **symmetry_mean:** Mean of the symmetry of the tumor.
+
+### Target Variable
+
+The target variable in this dataset is:
+
+- **diagnosis:** This variable indicates whether the tumor is "Malignant" or not, possibly denoting "Benign."
+
+This dataset serves as the foundation for building a predictive model to classify tumors into categories based on their characteristics.
+
 
 ## Dependencies
 
@@ -59,5 +78,19 @@ This project requires the following Python libraries:
 
 You can install these dependencies using pip:
 
-```bash
-pip install numpy pandas scikit-learn matplotlib seaborn
+      pip install numpy pandas scikit-learn matplotlib seaborn
+
+## Usage
+
+To use this project, follow these steps:
+
+1. Ensure you have Python installed on your machine.
+2. Clone the project repository to your local machine:
+
+     ```bash
+     git clone https://github.com/mominurr/Tumors-Classification-Predictor.git
+     cd Iris-Flower-Classification-Predictor
+     python flower_classifications_predictor.py
+
+##Author:
+[Mominur Rahman](https://github.com/mominurr)
